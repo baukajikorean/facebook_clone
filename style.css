@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.width {
+    width: 990px;
+    margin: 0 auto;
+}
+
+header {
+    height: 83px;
+    width: 100%;
+    background-image: linear-gradient(#4c68a1, #3c5a99, #3b5998);
+}
+
+main {
+    height: 626px;
+    width: 100%;
+    background-image: linear-gradient(#fefeff, #eceef6, #d3d8e8);
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #ffffff;
+}
+
+.logo {
+    float: left;
+    background-position: 0 0;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+body header {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.first-col {
+    float: left;
+    padding-left: 355px;
+    padding-top: 15px;
+}
+
+.first-col p, .second-col p {
+    font-size: 12px;
+    line-height: 1.34;
+    color: white;
+    font-family: inherit;
+    padding-bottom: 3px;
+}
+
+.first-col input, .second-col input {
+    height: 22px;
+    width: 147px;
+}
+
+.second-col {
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.forgot-password {
+    padding-top: 6px;
+}
+
+#forgot-password-text {
+    color: #8aa2cb;
+}
+
+.left-main {
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.right-main {
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    padding-left: 48px;
+    padding-top: 23px;
+}
+
+.right-main h1 {
+    font-size: 36px;
+}
+
+.right-main h2 {
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.right-main input {
+    padding-left: 6px;
+    font-size: 18px;
+    border-radius: 8px;
+    height: 38px;
+}
+
+.input-name {
+    margin-top: 22px;
+    width: 194px;
+}
+
+.input-lname {
+    margin-top: 22px;
+    margin-left: 12px;
+    width: 194px;
+}
+
+.email-or-phone-number {
+    width: 400px;
+    margin-top: 11px;
+}
+
+.password-input {
+    margin-top: 11px;
+    width: 400px;
+}
+
+.birthday-text {
+    padding-top: 23px;
+    color: #90949c;
+    font-weight: bold;
+}
+
+#birth-day {
+    margin-top: 7px;
+    height: 30px;
+    width: 62px;
+}
+
+#birth-month {
+    margin-top: 7px;
+    height: 30px;
+    width: 70px;
+}
+
+#birth-year {
+    margin-top: 7px;
+    height: 30px;
+    width: 60px;
+}
+
+.gender {
+    padding-top: 11px;
+    color: #90949c;
+    font-weight: bold;
+}
+
+#radio-woman {
+    margin-top: 2px;
+    margin-left: 10px;
+    float: left;
+}
+
+.label-for-radio {
+    float: left;
+    padding-top: 14px;
+    padding-left: 6px;
+    font-size: 18px;
+}
+
+#radio-man {
+    margin-top: 2px;
+    margin-left: 22px;
+    float: left;
+}
+
+#radio-other {
+    margin-top: 2px;
+    margin-left: 20px;
+    float: left;
+}
+
+#second-question {
+    float: left;
+    margin-left: 19px;
+    margin-top: 12px;
+}
+
+.terms {
+    font-size: 11px;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+.terms a {
+    text-decoration: none;
+}
+
+.register-button {
+    height: 40px;
+    width: 194px;
+    background-image: linear-gradient(#66ab54, #5a9147);
+    float: left;
+    clear: left;
+    margin-top: 22px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    word-spacing: normal;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.page-sign-up {
+    float: left;
+    clear: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #454545;
+    padding-top: 40px;
+}
+
+.page-sign-up a {
+    text-decoration: none;
+}
+
+.width-footer {
+    width: 979px;
+    margin: 0 auto;
+}
+
+#first-link-footer {
+    color: gray;
+}
+
+.first-footer a {
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+.first-footer {
+    float: left;
+    padding-top: 22px;
+}
+
+#plus-button-footer {
+    width: 28px;
+    height: 20px;
+    background-color: #f5f6f7;
+    border: 1px solid silver;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+}
+
+footer hr {
+    border-color: #fafafa;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.second-footer {
+    float: left;
+    margin-top: 6px;
+}
+
+.second-footer a {
+    text-decoration: none;
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 17px;
+    line-height: 18px;
+}
+
+.clear-left {
+    clear: left;
+}
+
+#facebook-c {
+    float: left;
+    clear: left;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: gray;
+    margin-top: 26px;
+}
